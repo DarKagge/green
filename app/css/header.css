@@ -591,50 +591,50 @@ h2 {
       float: none;
       display: block; }
 
-.list-videos ul {
-  position: relative;
-  top: -30px; }
-
-.list-videos a {
-  background-color: #5eae2d;
-  display: block;
-  height: 69px;
-  padding-left: 32px;
-  color: #fff;
-  font-size: 20px;
-  line-height: 20px;
-  position: relative; }
-  .list-videos a:hover {
-    text-decoration: none; }
-  .list-videos a:after {
-    position: absolute;
-    right: 59px;
-    top: 25px;
-    content: '';
-    background-image: url("../img/arrow-video-down.png");
-    background-repeat: no-repeat;
-    width: 42px;
-    height: 24px; }
-  .list-videos a h3 {
-    padding-top: 13px;
-    font-family: Roboto-Bold; }
-
-.list-videos li {
-  margin: 15px 0;
-  -webkit-transition: 1s all;
-  transition: 1s all; }
-
-.list-videos .active .second-videos-l {
-  display: block; }
-
-.list-videos .active:after {
-  background-image: url("../img/arrow-video.png"); }
+.list-videos {
+  padding-bottom: 25px; }
+  .list-videos ul {
+    position: relative;
+    top: -30px; }
+  .list-videos a {
+    background-color: #5eae2d;
+    display: block;
+    height: 69px;
+    padding-left: 32px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    position: relative; }
+    .list-videos a:hover {
+      text-decoration: none; }
+    .list-videos a:after {
+      position: absolute;
+      right: 59px;
+      top: 25px;
+      content: '';
+      background-image: url("../img/arrow-video-down.png");
+      background-repeat: no-repeat;
+      width: 42px;
+      height: 24px; }
+    .list-videos a h3 {
+      padding-top: 13px;
+      font-family: Roboto-Bold; }
+  .list-videos li {
+    margin: 15px 0;
+    -webkit-transition: 1s all;
+    transition: 1s all; }
+  .list-videos .active .second-videos-l {
+    display: block; }
+  .list-videos .active:after {
+    background-image: url("../img/arrow-video.png"); }
 
 .second-videos-l {
   display: none;
   top: auto !important; }
   .second-videos-l img {
     width: 100%; }
+  .second-videos-l span {
+    font-family: Roboto-Bold; }
   .second-videos-l b {
     font-family: Roboto-Bold;
     font-size: 18px;

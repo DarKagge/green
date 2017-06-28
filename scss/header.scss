@@ -791,6 +791,7 @@ h2{
 
 
 .list-videos{
+	padding-bottom: 25px;
 	ul{
 		position: relative;
 		top: -30px;
@@ -843,6 +844,9 @@ h2{
 	top: auto !important;
 	img{
 		width: 100%;
+	}
+	span{
+		font-family:Roboto-Bold;
 	}
 	b{
 		font-family:Roboto-Bold;
