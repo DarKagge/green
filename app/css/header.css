@@ -540,8 +540,9 @@ h2 {
   background-image: url("../img/bg-5.jpg");
   background-position: center;
   background-size: cover;
-  color: #fff;
-  padding: 50px 0; }
+  color: #fff; }
+  .for-whom .inner {
+    padding: 50px 0; }
   .for-whom h3 {
     text-transform: uppercase;
     text-align: center;
@@ -648,3 +649,6 @@ h2 {
 .disk-2 .title-list li {
   float: none;
   width: inherit; }
+
+.for-pr {
+  background-image: url("../img/bg-6.jpg"); }
