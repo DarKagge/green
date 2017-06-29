@@ -185,3 +185,49 @@ $(".list-videos > ul > li > a").on("click",function(e){
     }
 
 });
+
+
+
+
+
+
+
+
+
+
+
+    var rev = $('#reviews-video').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        pager:false,
+        controls:false,
+        loop:true
+    });
+    $(".left-arrow a").on("click",function (e) {
+        e.preventDefault();
+        rev.goToPrevSlide();
+    });
+    $(".right-arrow a").on("click",function (e) {
+        e.preventDefault();
+        rev.goToNextSlide();
+    });
+
+
+
+    var otz = $('#reviews-otz').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        pager:false,
+        controls:false,
+        loop:true
+    });
+    $(".left-arrow a").on("click",function (e) {
+        e.preventDefault();
+        otz.goToPrevSlide();
+    });
+    $(".right-arrow a").on("click",function (e) {
+        e.preventDefault();
+        otz.goToNextSlide();
+    });

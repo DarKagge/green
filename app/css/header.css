@@ -211,6 +211,9 @@ h2 {
   margin-top: 50px;
   margin-bottom: 30px; }
 
+.sircle-green span {
+  font-family: Roboto-Bold; }
+
 .sircle-green li {
   padding-left: 32px;
   position: relative;
@@ -652,3 +655,84 @@ h2 {
 
 .for-pr {
   background-image: url("../img/bg-6.jpg"); }
+
+.title-orange {
+  position: relative;
+  top: -30px;
+  background-color: #ffc500;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Roboto-Bold;
+  line-height: 20px;
+  color: #000;
+  padding: 23.5px 30px;
+  display: inline-block; }
+
+.why-chose {
+  text-align: center;
+  padding-bottom: 35px; }
+  .why-chose .sircle-green {
+    margin-top: 15px;
+    text-align: left; }
+    .why-chose .sircle-green li {
+      line-height: 18px;
+      margin-bottom: 14px; }
+
+.img-arrows {
+  display: block; }
+
+.reviews {
+  background-image: url("../img/bg-7.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 35px 0; }
+  .reviews .slider-ser {
+    margin: 30px auto; }
+  .reviews .left-arrow {
+    padding-top: 160px; }
+  .reviews .right-arrow {
+    padding-top: 160px; }
+  .reviews .slider-ser-max {
+    max-width: 910px; }
+    .reviews .slider-ser-max .left-arrow {
+      padding-top: 80px; }
+    .reviews .slider-ser-max .right-arrow {
+      padding-top: 80px; }
+  .reviews .items-fotot-s .item-slide {
+    max-width: 431px; }
+
+.title-slide-reviews {
+  background-color: #ffc500;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 25px;
+  display: inline-block;
+  padding: 20px 30px; }
+
+.img-mind {
+  display: block;
+  margin: 25px 0; }
+
+.buy {
+  text-align: center; }
+  .buy h2 {
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: none; }
+  .buy .sircle-green {
+    margin-top: 15px;
+    text-align: left; }
+
+.pre-buy {
+  font-size: 16px;
+  padding-top: 35px;
+  line-height: 22px; }
+  .pre-buy b {
+    font-family: Roboto-Bold;
+    font-size: 20px; }
+  .pre-buy span {
+    font-family: Roboto-Bold;
+    font-size: 20px;
+    color: #42af00; }

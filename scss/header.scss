@@ -280,6 +280,9 @@ h2{
 }
 
 .sircle-green{
+	span{
+		font-family:Roboto-Bold;
+	}
 	li{
 		padding-left: 32px;
 		position: relative;
@@ -874,4 +877,108 @@ h2{
 
 .for-pr{
 	background-image: url("../img/bg-6.jpg");
+}
+
+
+.title-orange{
+	position: relative;
+	top: -30px;
+	background-color: #ffc500;
+	text-transform: uppercase;
+	font-size:20px;
+	font-family:Roboto-Bold;
+	line-height: 20px;
+	color: #000;
+	padding: 23.5px 30px;
+	display: inline-block;
+}
+
+.why-chose{
+	text-align: center;
+	padding-bottom: 35px;
+	.sircle-green{
+		margin-top: 15px;
+		text-align: left;
+		li{
+			line-height: 18px;
+			margin-bottom: 14px;
+		}
+	}
+
+}
+
+.img-arrows{
+	display: block;
+}
+
+.reviews{
+	background-image: url("../img/bg-7.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 35px 0;
+	.slider-ser{
+		margin: 30px auto;
+	}
+  .left-arrow{
+    padding-top: 160px;
+  }
+  .right-arrow{
+    padding-top: 160px;
+  }
+  .slider-ser-max{
+    max-width: 910px;
+    .left-arrow{
+      padding-top: 80px;
+    }
+    .right-arrow{
+      padding-top: 80px;
+    }
+  }
+  .items-fotot-s .item-slide{
+    max-width:431px;
+  }
+}
+
+.title-slide-reviews{
+	background-color: #ffc500;
+	color: #000;
+	text-transform: uppercase;
+	font-size:20px;
+	line-height: 25px;
+	display: inline-block;
+	padding: 20px 30px;
+}
+
+.img-mind{
+  display: block;
+  margin: 25px 0;
+}
+
+.buy{
+  text-align: center;
+  h2{
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: none;
+  }
+  .sircle-green{
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+
+.pre-buy{
+  font-size: 16px;
+  padding-top: 35px;
+  line-height: 22px;
+  b{
+    font-family:Roboto-Bold;
+    font-size: 20px;
+  }
+  span{
+    font-family:Roboto-Bold;
+    font-size: 20px;
+    color: #42af00;
+  }
 }
