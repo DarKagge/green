@@ -957,6 +957,7 @@ h2{
 
 .buy{
   text-align: center;
+  padding-bottom: 50px;
   h2{
     font-size: 20px;
     line-height: 25px;
@@ -981,4 +982,45 @@ h2{
     font-size: 20px;
     color: #42af00;
   }
+}
+
+.no{
+  text-align: center;
+  li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 14px;
+    max-width: 440px;
+    .second-no{
+      margin-top: 49px;
+      li{
+        text-align: left;
+        margin: 0;
+        display: block;
+        min-height: 145px;
+        padding-bottom: 15px;
+        p{
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  .sircle-green{
+    text-align: left;
+    li{
+      text-align: left;
+      display: block;
+      margin: 20px 0 0 0;
+      max-width: inherit;
+    }
+  }
+}
+
+.green-arrow{
+  padding-top: 20px;
+}
+
+.img-no{
+  height: 65px;
 }
