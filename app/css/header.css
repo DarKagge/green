@@ -739,7 +739,8 @@ h2 {
     color: #42af00; }
 
 .no {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 100px; }
   .no li {
     display: inline-block;
     vertical-align: top;
@@ -769,3 +770,171 @@ h2 {
 
 .img-no {
   height: 65px; }
+
+.button-green {
+  text-align: center;
+  position: relative;
+  top: -35px; }
+  .button-green a {
+    font-size: 32.77px;
+    background-color: #5eae2d;
+    display: inline-block;
+    border-top: 4px solid #80eb5f;
+    border-bottom: 4px solid #3e6c1c;
+    color: #fff;
+    padding: 7px 67px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px; }
+    .button-green a:hover {
+      background-color: #488523;
+      text-decoration: none; }
+
+.need-course {
+  padding-bottom: 120px; }
+
+.formalize {
+  margin-top: 40px; }
+  .formalize h3 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Roboto-Bold; }
+  .formalize li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 14px; }
+    .formalize li:first-child {
+      margin-left: 0; }
+    .formalize li:last-child {
+      margin-right: 0; }
+  .formalize ul {
+    margin-top: 70px; }
+
+.left-formalize {
+  max-width: 534px; }
+  .left-formalize .sircle-green-f {
+    background-color: #5eae2d;
+    width: 36px;
+    height: 36px;
+    -webkit-border-radius: 120px;
+    border-radius: 120px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    float: left; }
+  .left-formalize p {
+    padding-left: 50px;
+    line-height: 23px; }
+  .left-formalize ul {
+    margin-top: 0; }
+  .left-formalize li {
+    padding-bottom: 17px;
+    margin: 0; }
+
+.right-formalize {
+  max-width: 361px; }
+  .right-formalize .button-green {
+    top: auto;
+    text-align: left; }
+    .right-formalize .button-green a {
+      font-size: 20px;
+      padding: 3px 44px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      border-top: 2px solid #80eb5f;
+      border-bottom: 2px solid #3e6c1c; }
+  .right-formalize p {
+    padding-top: 15px;
+    line-height: 24px; }
+
+.telephone {
+  padding-top: 15px; }
+  .telephone h2 {
+    text-align: left;
+    font-family: Roboto-Bold;
+    font-size: 20px; }
+  .telephone p {
+    padding-top: 0; }
+
+.payment-shipping {
+  text-align: center;
+  background-image: url("../img/bg-8.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 40px; }
+  .payment-shipping h3 {
+    font-size: 25px;
+    color: #fff;
+    line-height: 25px;
+    font-family: Roboto-Bold; }
+  .payment-shipping li {
+    float: left;
+    margin: 40px 94px; }
+    .payment-shipping li:first-child {
+      margin-left: 0; }
+    .payment-shipping li:last-child {
+      margin-right: 0; }
+    .payment-shipping li img {
+      float: left; }
+    .payment-shipping li p {
+      padding-left: 115px;
+      font-size: 18px;
+      line-height: 23px;
+      text-align: left;
+      color: #fff;
+      padding-top: 10px; }
+    .payment-shipping li span {
+      font-family: Roboto-Bold; }
+  .payment-shipping h4 {
+    padding-top: 35px;
+    color: #fff; }
+  .payment-shipping b {
+    font-family: Roboto-Bold;
+    font-size: 20px; }
+
+.op-as * {
+  float: left; }
+
+.op-as .white-as {
+  width: 72.4%;
+  background-color: #fff;
+  height: 61px;
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: Roboto-Bold;
+  padding: 22px 0 0 23px; }
+
+.op-as .orange-as {
+  width: 27.6%;
+  background-color: #ffc500;
+  height: 61px;
+  color: #000;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding-top: 11px; }
+
+.forma-for {
+  padding: 55px 0;
+  text-align: center; }
+  .forma-for h3 {
+    font-size: 23px;
+    line-height: 23px;
+    font-family: Roboto-Bold; }
+  .forma-for h2 {
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 25px; }
+
+.forms-all {
+  max-width: 534px;
+  margin: 0 auto; }
+  .forms-all input[type='text'] {
+    width: 100%;
+    border: 2px solid #46b105;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    margin-top: 30px;
+    padding: 10px 19px; }
