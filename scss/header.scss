@@ -1046,6 +1046,21 @@ h2{
       text-decoration: none;
     }
   }
+  button{
+    font-size:32.77px;
+    background-color: #5eae2d;
+    display: block;
+    width: 100%;
+    border-top: 4px solid #80eb5f;
+    border-bottom: 4px solid #3e6c1c;
+    color: #fff;
+    padding: 7px 67px;
+    border-radius: 15px;
+    &:hover{
+      background-color: darken(#5eae2d,10);
+      text-decoration: none;
+    }
+  }
 }
 
 
@@ -1226,16 +1241,124 @@ h2{
     line-height: 20px;
     padding-top: 25px;
   }
+  .title-slide-reviews{
+    text-transform: none;
+    margin: 13px 0;
+  }
 }
 
 .forms-all{
   max-width: 534px;
   margin: 0 auto;
+  text-align: center;
   input[type='text']{
     width: 100%;
     border: 2px solid #46b105;
     border-radius: 13px ;
     margin-top: 30px;
+    color: #000;
+    opacity: 1;
     padding: 10px 19px;
+    @include placeholder{
+      color: #000;
+      opacity: 0.5;
+    }
+  }
+  .button-green{
+    top: auto;
+    button{
+      padding: 12px 0;
+      font-size: 23px;
+    }
+  }
+  p{
+    padding-top: 15px;
+    line-height: 24px;
+  }
+  span{
+    color: #5eae2d;
+  }
+}
+
+.check{
+  margin: 5px 0;
+  input{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    background-color: transparent;
+    border-radius: none;
+  }
+  p{
+    display: inline-block;
+  }
+}
+
+.form-fr{
+  margin: 25px 0;
+  h3{
+    text-transform: none;
+    text-align: center;
+    font-size: 20px;
+    font-family:Roboto-Bold;
+  }
+  li {
+    text-align: left;
+    padding-left: 32px;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 21px;
+    p{
+      position: relative;
+      &:after{
+        position: absolute;
+        left: -28px;
+        top: 7px;
+        content: '';
+        background-image: url("../img/c-or.png");
+        background-repeat: no-repeat;
+        width: 9px;
+        height: 9px;
+      }
+    }
+    .second-wh{
+      li{
+        margin-top: 0px;
+      }
+      span{
+        display: block;
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+.for-bottom{
+  background-image: url("../img/bg-9.jpg");
+  padding-bottom: 35px;
+  h3{
+    text-align: left;
+    padding-left: 15px;
+  }
+  li{
+    font-size: 20px;
+  }
+}
+
+
+.call-us{
+  position: relative;
+  top:-50px;
+}
+
+.call{
+  background-color: #fff;
+  text-align: center;
+  padding: 65px 0;
+  h3{
+    color: #000;
+    font-size:23px;
+    line-height: 23px;
+    font-family:Roboto-Bold;
   }
 }
