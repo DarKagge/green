@@ -71,7 +71,43 @@ header{
 		color: #000;
 
 	}
+	@media only screen and (max-width : 960px){
+		background-position: center right;
+	}
+	@media only screen and (max-width : 695px){
+		h1{
+			font-size:4vw;
+		}
+		h2{
+			font-size: 3.5vw;
+		}
+		p{
+			font-size: 3vw;
+		}
+	}
+	@media only screen and (max-width : 550px){
+		text-align: center;
+		h1{
+			line-height: 30px;
+		}
+	}
+	@media only screen and (max-width : 450px){
+
+		br{
+			display: none;
+		}
+		h1{
+			font-size: 4.1vw;
+		}
+		h2{
+			font-size: 3.9vw;
+		}
+		p{
+			font-size: 3.7vw;
+		}
+	}
 }
+
 
 
 h2{
@@ -87,6 +123,9 @@ h2{
 .inner{
 	max-width: 945px;
 	margin: 0 auto;
+	@media only screen and (max-width : 960px){
+		padding: 0 15px;
+	}
 	
 }
 
@@ -396,6 +435,19 @@ h2{
 			width: 100%;
 			min-height: 235px;
 		}
+		@media only screen and (max-width : 1110px){
+			float: none;
+			margin: 0 auto;
+			max-width: 500px;
+			&:first-child{
+				float: none;
+				margin: 0 auto;
+			}
+			&:last-child{
+				float: none;
+				margin: 0 auto;
+			}
+		}
 	}
 }
 
@@ -414,6 +466,9 @@ h2{
 	left: -93px;
 	padding-top: 86px;
 	position: absolute;
+	@media only screen and (max-width : 1110px){
+		left: 0;
+	}
 	a{
 		background-image: url("../img/arrow-left.png");
 	}
@@ -424,6 +479,9 @@ h2{
 	padding-top: 86px;
 	right: -93px;
 	position: absolute;
+	@media only screen and (max-width : 1110px){
+		right: 0;
+	}
 	a{
 		background-image: url("../img/arrow-right.png");
 	}
@@ -651,6 +709,12 @@ h2{
 .video-c{
 	max-width: 783px;
 	margin: 40px auto 20px auto;
+	img{
+		width: 100%;
+	}
+	@media only screen and (max-width : 1110px){
+
+	}
 }
 
 .video-green{
@@ -919,6 +983,19 @@ h2{
 	padding: 35px 0;
 	.slider-ser{
 		margin: 30px auto;
+		@media only screen and (max-width : 1110px){
+			.left-arrow{
+				padding-top: 160px;
+				left: -50px;
+			}
+			.right-arrow{
+				padding-top: 160px;
+				right: -50px;
+			}
+		}
+		@media only screen and (max-width : 870px){
+			max-width: 600px;
+		}
 	}
   .left-arrow{
     padding-top: 160px;
@@ -930,13 +1007,23 @@ h2{
     max-width: 910px;
     .left-arrow{
       padding-top: 80px;
+		@media only screen and (max-width : 1110px){
+			left: 0;
+		}
     }
     .right-arrow{
       padding-top: 80px;
+		@media only screen and (max-width : 1110px){
+			right: 0;
+		}
     }
   }
   .items-fotot-s .item-slide{
     max-width:431px;
+	  @media only screen and (max-width : 1110px){
+		  float: none;
+		  margin: 0 auto;
+	  }
   }
 }
 
@@ -1449,6 +1536,7 @@ h2{
 footer{
 	background-color: #5eae2d;
 	padding: 45px 0;
+	margin-bottom: 70px;
 	color: #fff;
 	div[class*='col-md-4']{
 		&:first-child{

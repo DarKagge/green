@@ -55,6 +55,30 @@ header {
     padding-top: 10px;
     line-height: 24px;
     color: #000; }
+  @media only screen and (max-width: 960px) {
+    header {
+      background-position: center right; } }
+  @media only screen and (max-width: 695px) {
+    header h1 {
+      font-size: 4vw; }
+    header h2 {
+      font-size: 3.5vw; }
+    header p {
+      font-size: 3vw; } }
+  @media only screen and (max-width: 550px) {
+    header {
+      text-align: center; }
+      header h1 {
+        line-height: 30px; } }
+  @media only screen and (max-width: 450px) {
+    header br {
+      display: none; }
+    header h1 {
+      font-size: 4.1vw; }
+    header h2 {
+      font-size: 3.9vw; }
+    header p {
+      font-size: 3.7vw; } }
 
 h2 {
   line-height: 25px;
@@ -67,6 +91,9 @@ h2 {
 .inner {
   max-width: 945px;
   margin: 0 auto; }
+  @media only screen and (max-width: 960px) {
+    .inner {
+      padding: 0 15px; } }
 
 .title-green {
   background-color: #5eae2d;
@@ -299,6 +326,17 @@ h2 {
   .items-fotot-s .item-slide img {
     width: 100%;
     min-height: 235px; }
+  @media only screen and (max-width: 1110px) {
+    .items-fotot-s .item-slide {
+      float: none;
+      margin: 0 auto;
+      max-width: 500px; }
+      .items-fotot-s .item-slide:first-child {
+        float: none;
+        margin: 0 auto; }
+      .items-fotot-s .item-slide:last-child {
+        float: none;
+        margin: 0 auto; } }
 
 .slider-arrows {
   position: relative;
@@ -314,6 +352,9 @@ h2 {
   left: -93px;
   padding-top: 86px;
   position: absolute; }
+  @media only screen and (max-width: 1110px) {
+    .left-arrow {
+      left: 0; } }
   .left-arrow a {
     background-image: url("../img/arrow-left.png"); }
 
@@ -321,6 +362,9 @@ h2 {
   padding-top: 86px;
   right: -93px;
   position: absolute; }
+  @media only screen and (max-width: 1110px) {
+    .right-arrow {
+      right: 0; } }
   .right-arrow a {
     background-image: url("../img/arrow-right.png"); }
 
@@ -486,6 +530,8 @@ h2 {
 .video-c {
   max-width: 783px;
   margin: 40px auto 20px auto; }
+  .video-c img {
+    width: 100%; }
 
 .video-green {
   margin-top: 20px; }
@@ -689,6 +735,16 @@ h2 {
   padding: 35px 0; }
   .reviews .slider-ser {
     margin: 30px auto; }
+    @media only screen and (max-width: 1110px) {
+      .reviews .slider-ser .left-arrow {
+        padding-top: 160px;
+        left: -50px; }
+      .reviews .slider-ser .right-arrow {
+        padding-top: 160px;
+        right: -50px; } }
+    @media only screen and (max-width: 870px) {
+      .reviews .slider-ser {
+        max-width: 600px; } }
   .reviews .left-arrow {
     padding-top: 160px; }
   .reviews .right-arrow {
@@ -697,10 +753,20 @@ h2 {
     max-width: 910px; }
     .reviews .slider-ser-max .left-arrow {
       padding-top: 80px; }
+      @media only screen and (max-width: 1110px) {
+        .reviews .slider-ser-max .left-arrow {
+          left: 0; } }
     .reviews .slider-ser-max .right-arrow {
       padding-top: 80px; }
+      @media only screen and (max-width: 1110px) {
+        .reviews .slider-ser-max .right-arrow {
+          right: 0; } }
   .reviews .items-fotot-s .item-slide {
     max-width: 431px; }
+    @media only screen and (max-width: 1110px) {
+      .reviews .items-fotot-s .item-slide {
+        float: none;
+        margin: 0 auto; } }
 
 .title-slide-reviews {
   background-color: #ffc500;
@@ -1113,6 +1179,7 @@ h2 {
 footer {
   background-color: #5eae2d;
   padding: 45px 0;
+  margin-bottom: 70px;
   color: #fff; }
   footer div[class*='col-md-4']:first-child {
     padding-left: 124px; }

@@ -119,12 +119,29 @@ $(function() {
 
 
 	var autoplaySlider = $('#adaptive').lightSlider({
-		adaptiveHeight:true,
-		item:1,
-		slideMargin:0,
+        adaptiveHeight:true,
+        item:2,
+        slideMargin:15,
         pager:false,
-		controls:false,
-		loop:true
+        controls:false,
+        loop:true,
+        responsive : [
+            {
+                breakpoint:1111,
+                settings: {
+                    item:1,
+                    slideMove:1,
+                    slideMargin:0,
+                }
+            },
+            {
+                breakpoint:480,
+                settings: {
+                    item:1,
+                    slideMove:1
+                }
+            }
+        ]
 	});
 	$(".left-arrow a").on("click",function (e) {
 		e.preventDefault();
@@ -138,11 +155,28 @@ $(function() {
 
     var medal = $('#adaptive-medal').lightSlider({
         adaptiveHeight:true,
-        item:1,
-        slideMargin:0,
+        item:2,
+        slideMargin:15,
         pager:false,
         controls:false,
-        loop:true
+        loop:true,
+        responsive : [
+            {
+                breakpoint:1111,
+                settings: {
+                    item:1,
+                    slideMove:1,
+                    slideMargin:0,
+                }
+            },
+            {
+                breakpoint:480,
+                settings: {
+                    item:1,
+                    slideMove:1
+                }
+            }
+        ]
     });
     $(".left-arrow a").on("click",function (e) {
         e.preventDefault();
@@ -157,11 +191,28 @@ $(function() {
 
     var pol = $('#adaptive-pol').lightSlider({
         adaptiveHeight:true,
-        item:1,
-        slideMargin:0,
+        item:2,
+        slideMargin:15,
         pager:false,
         controls:false,
-        loop:true
+        loop:true,
+        responsive : [
+            {
+                breakpoint:1111,
+                settings: {
+                    item:1,
+                    slideMove:1,
+                    slideMargin:0,
+                }
+            },
+            {
+                breakpoint:480,
+                settings: {
+                    item:1,
+                    slideMove:1,
+                }
+            }
+        ]
     });
     $(".left-arrow a").on("click",function (e) {
         e.preventDefault();
@@ -217,11 +268,28 @@ $(".list-videos > ul > li > a").on("click",function(e){
 
     var otz = $('#reviews-otz').lightSlider({
         adaptiveHeight:true,
-        item:1,
-        slideMargin:0,
+        item:2,
+        slideMargin:15,
         pager:false,
         controls:false,
-        loop:true
+        loop:true,
+        responsive : [
+            {
+                breakpoint:1111,
+                settings: {
+                    item:1,
+                    slideMove:1,
+                    slideMargin:0,
+                }
+            },
+            {
+                breakpoint:480,
+                settings: {
+                    item:1,
+                    slideMove:1
+                }
+            }
+        ]
     });
     $(".left-arrow a").on("click",function (e) {
         e.preventDefault();
