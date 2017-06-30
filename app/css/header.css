@@ -181,6 +181,11 @@ h2 {
   background-size: cover;
   min-height: 288px;
   margin-top: 90px; }
+  @media only screen and (max-width: 991px) {
+    .avoid {
+      text-align: center; }
+      .avoid p {
+        text-align: center; } }
 
 .avoid-a {
   background-color: #ffc500;
@@ -256,9 +261,18 @@ h2 {
     -webkit-border-radius: 120px;
     border-radius: 120px; }
 
+@media only screen and (max-width: 991px) {
+  .sircle-green {
+    text-align: left; } }
+
 .foto-author {
   float: left;
   width: 35.5%; }
+  @media only screen and (max-width: 991px) {
+    .foto-author {
+      width: 100%;
+      float: none;
+      text-align: center; } }
 
 .info-author {
   padding-left: 30px;
@@ -275,6 +289,13 @@ h2 {
     display: block; }
   .info-author li {
     line-height: 21px; }
+  @media only screen and (max-width: 991px) {
+    .info-author {
+      width: 100%;
+      float: none;
+      text-align: center;
+      padding-left: 0;
+      padding-top: 15px; } }
 
 .education-autor {
   margin-top: 25px; }
@@ -400,6 +421,9 @@ h2 {
         height: 100%;
         left: 0;
         top: 0; }
+  @media only screen and (max-width: 916px) {
+    .patent li {
+      margin: 25px !important; } }
 
 .medal {
   text-align: center;
@@ -430,6 +454,11 @@ h2 {
 .book-img {
   float: left;
   width: 16.21%; }
+  @media only screen and (max-width: 850px) {
+    .book-img {
+      width: 100%;
+      float: none;
+      text-align: center; } }
 
 .text-for-book {
   float: left;
@@ -440,6 +469,12 @@ h2 {
   .text-for-book span {
     color: #42af00;
     font-family: Roboto-Bold; }
+  @media only screen and (max-width: 850px) {
+    .text-for-book {
+      width: 100%;
+      float: none;
+      text-align: center;
+      padding-top: 15px; } }
 
 .avoid-two {
   background-image: url("../img/bg-3.jpg");
@@ -517,6 +552,14 @@ h2 {
 
 .practic .avoid-two .avoid-a {
   padding: 21px 0px 20px 25px; }
+
+@media only screen and (max-width: 991px) {
+  .practic {
+    text-align: center; }
+    .practic p {
+      text-align: center; }
+    .practic .avoid p {
+      text-align: center; } }
 
 .video-course {
   text-align: center;
@@ -618,6 +661,9 @@ h2 {
     .for-whom li .second-wh span {
       display: block;
       padding-left: 5px; }
+  @media only screen and (max-width: 991px) {
+    .for-whom .inner {
+      padding: 50px 15px; } }
 
 .disk {
   padding-top: 60px; }
@@ -745,6 +791,10 @@ h2 {
     @media only screen and (max-width: 870px) {
       .reviews .slider-ser {
         max-width: 600px; } }
+    @media only screen and (max-width: 720px) {
+      .reviews .slider-ser {
+        max-width: inherit;
+        padding: 0 50px; } }
   .reviews .left-arrow {
     padding-top: 160px; }
   .reviews .right-arrow {
@@ -761,12 +811,21 @@ h2 {
       @media only screen and (max-width: 1110px) {
         .reviews .slider-ser-max .right-arrow {
           right: 0; } }
+    @media only screen and (max-width: 590px) {
+      .reviews .slider-ser-max .left-arrow {
+        left: -20px; }
+      .reviews .slider-ser-max .right-arrow {
+        right: -20px; } }
   .reviews .items-fotot-s .item-slide {
     max-width: 431px; }
     @media only screen and (max-width: 1110px) {
       .reviews .items-fotot-s .item-slide {
         float: none;
         margin: 0 auto; } }
+    @media only screen and (max-width: 590px) {
+      .reviews .items-fotot-s .item-slide {
+        max-width: inherit;
+        padding: 0 50px; } }
 
 .title-slide-reviews {
   background-color: #ffc500;

@@ -242,6 +242,12 @@ h2{
 	background-size: cover;
 	min-height: 288px;
 	margin-top: 90px;
+	@media only screen and (max-width : 991px){
+		text-align: center;
+		p{
+			text-align: center;
+		}
+	}
 }
 
 .avoid-a{
@@ -337,18 +343,25 @@ h2{
 			border-radius: 120px;
 		}
 	}
+	@media only screen and (max-width : 991px){
+		text-align: left;
+	}
 }
 
 .foto-author{
 	float: left;
 	width: 35.5%;
+	@media only screen and (max-width : 991px){
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
 }
 
 .info-author{
 	padding-left: 30px;
 	float: left;
 	width: 64.5%;
-
 	p{
 		padding-top: 7px;
 		padding-bottom: 16px;
@@ -363,6 +376,13 @@ h2{
 	}
 	li{
 		line-height: 21px;
+	}
+	@media only screen and (max-width : 991px){
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding-left: 0;
+		padding-top: 15px;
 	}
 }
 
@@ -532,6 +552,11 @@ h2{
 		}
 
 	}
+	@media only screen and (max-width : 916px){
+		li{
+			margin: 25px !important;
+		}
+	}
 }
 
 
@@ -573,6 +598,11 @@ h2{
 .book-img{
 	float: left;
 	width: 16.21%;
+	@media only screen and (max-width : 850px){
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
 }
 
 .text-for-book{
@@ -582,10 +612,15 @@ h2{
 	b{
 		font-family:Roboto-Bold;
 	}
-
 	span{
 		color: #42af00;
 		font-family:Roboto-Bold;
+	}
+	@media only screen and (max-width : 850px){
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding-top: 15px;
 	}
 }
 
@@ -690,6 +725,17 @@ h2{
 	}
 	.avoid-two .avoid-a{
 		padding: 21px 0px 20px 25px;
+	}
+	@media only screen and (max-width : 991px){
+		text-align: center;
+		p{
+			text-align: center;
+		}
+		.avoid{
+			p{
+				text-align: center;
+			}
+		}
 	}
 }
 
@@ -823,6 +869,12 @@ h2{
 				padding-left: 5px;
 			}
 		}
+	}
+	@media only screen and (max-width : 991px){
+		.inner{
+			padding: 50px 15px;
+		}
+
 	}
 }
 
@@ -996,6 +1048,10 @@ h2{
 		@media only screen and (max-width : 870px){
 			max-width: 600px;
 		}
+		@media only screen and (max-width : 720px){
+			max-width: inherit;
+			padding: 0 50px;
+		}
 	}
   .left-arrow{
     padding-top: 160px;
@@ -1017,12 +1073,26 @@ h2{
 			right: 0;
 		}
     }
+	  @media only screen and (max-width : 590px){
+
+		  .left-arrow{
+			  left:-20px;
+		  }
+		  .right-arrow{
+			right: -20px;
+		  }
+	  }
+
   }
   .items-fotot-s .item-slide{
     max-width:431px;
 	  @media only screen and (max-width : 1110px){
 		  float: none;
 		  margin: 0 auto;
+	  }
+	  @media only screen and (max-width : 590px){
+		  max-width: inherit;
+		  padding: 0 50px;
 	  }
   }
 }
