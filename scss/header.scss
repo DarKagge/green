@@ -165,6 +165,11 @@ h2{
 		padding: 13px 48px;
 		text-transform: uppercase;
 	}
+	@media only screen and (max-width : 500px){
+		h2{
+			padding: 13px 20px;
+		}
+	}
 
 }
 
