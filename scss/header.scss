@@ -229,6 +229,9 @@ h2{
 			}
 		}
 	}
+	@media only screen and (max-width : 991px){
+		padding-left: 0;
+	}
 }
 
 .ots-bad{
@@ -285,6 +288,9 @@ h2{
 	p{
 		padding-bottom: 10px;
 	}
+	@media only screen and (max-width : 500px){
+		margin-top: 250px;
+	}
 }
 
 .text-for-s{
@@ -318,6 +324,11 @@ h2{
 		font-size: 20px;
 		font-family:Roboto-Bold;
 		line-height: 27px;
+	}
+	@media only screen and (max-width : 850px){
+		br{
+			display: none;
+		}
 	}
 }
 
@@ -967,6 +978,20 @@ h2{
 		}
 		&:after{
 			background-image: url("../img/arrow-video.png");
+		}
+	}
+	@media only screen and (max-width : 630px){
+		a{
+
+			padding: 5px 35px;
+			height: auto;
+			&:after{
+				right: 5px;
+				top: 10px;
+			}
+			h3{
+				padding-top: 0;
+			}
 		}
 	}
 }
@@ -1702,7 +1727,7 @@ footer{
 		text-align: center;
 		div[class*='col-md-4']{
 			&:first-child{
-				padding-left: 0px;
+				padding-left: 15px;
 			}
 			&:nth-child(2){
 				text-align: center;
@@ -1712,6 +1737,17 @@ footer{
 					padding-left: 0px;
 				}
 			}
+		}
+		br{
+			display: none;
+		}
+		h3{
+			font-size: 20px;
+			line-height: 20px;
+		}
+		p{
+			font-size: 18px;
+			line-height: 20px;
 		}
 	}
 }

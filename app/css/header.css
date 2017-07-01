@@ -171,6 +171,9 @@ h2 {
     display: inline-block; }
   .item-bad-heal:nth-child(3) .text-bad-heal tt {
     padding-top: 0; }
+  @media only screen and (max-width: 991px) {
+    .item-bad-heal {
+      padding-left: 0; } }
 
 .ots-bad {
   padding-top: 10px; }
@@ -214,6 +217,9 @@ h2 {
     color: #42af00; }
   .secret p {
     padding-bottom: 10px; }
+  @media only screen and (max-width: 500px) {
+    .secret {
+      margin-top: 250px; } }
 
 .text-for-s {
   padding-top: 47px; }
@@ -240,6 +246,9 @@ h2 {
     font-size: 20px;
     font-family: Roboto-Bold;
     line-height: 27px; }
+  @media only screen and (max-width: 850px) {
+    .author br {
+      display: none; } }
 
 .item-auto {
   margin-top: 50px;
@@ -730,6 +739,15 @@ h2 {
     display: block; }
   .list-videos .active:after {
     background-image: url("../img/arrow-video.png"); }
+  @media only screen and (max-width: 630px) {
+    .list-videos a {
+      padding: 5px 35px;
+      height: auto; }
+      .list-videos a:after {
+        right: 5px;
+        top: 10px; }
+      .list-videos a h3 {
+        padding-top: 0; } }
 
 .second-videos-l {
   display: none;
@@ -1312,8 +1330,16 @@ footer {
     footer {
       text-align: center; }
       footer div[class*='col-md-4']:first-child {
-        padding-left: 0px; }
+        padding-left: 15px; }
       footer div[class*='col-md-4']:nth-child(2) {
         text-align: center; }
       footer div[class*='col-md-4']:last-child h3 {
-        padding-left: 0px; } }
+        padding-left: 0px; }
+      footer br {
+        display: none; }
+      footer h3 {
+        font-size: 20px;
+        line-height: 20px; }
+      footer p {
+        font-size: 18px;
+        line-height: 20px; } }
