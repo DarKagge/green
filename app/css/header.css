@@ -450,9 +450,15 @@ h2 {
     text-align: right;
     font-family: Roboto-Bold;
     padding-top: 5px; }
+  @media only screen and (max-width: 916px) {
+    .medal {
+      padding: 0 15px; } }
 
 .t-left {
   text-align: left; }
+  @media only screen and (max-width: 850px) {
+    .t-left {
+      padding: 0 15px; } }
 
 .al-bo {
   padding-top: 45px; }
@@ -639,7 +645,8 @@ h2 {
 
 .wrapper-two {
   max-width: 1158px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
 
 .for-whom {
   background-image: url("../img/bg-5.jpg");
@@ -952,6 +959,11 @@ h2 {
     .button-green button:hover {
       background-color: #488523;
       text-decoration: none; }
+  @media only screen and (max-width: 500px) {
+    .button-green a {
+      font-size: 19px; }
+    .button-green button {
+      font-size: 19px; } }
 
 .need-course {
   padding-bottom: 120px; }
