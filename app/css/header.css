@@ -87,6 +87,12 @@ h2 {
   font-family: Roboto-Bold;
   text-transform: uppercase;
   text-align: center; }
+  @media only screen and (max-width: 450px) {
+    h2 {
+      font-size: 19px;
+      line-height: 20px; }
+      h2 br {
+        display: none; } }
 
 .inner {
   max-width: 945px;
@@ -499,7 +505,8 @@ h2 {
       width: 100%;
       float: none;
       text-align: center;
-      padding-top: 15px; } }
+      padding-top: 15px;
+      padding-left: 0; } }
 
 .avoid-two {
   background-image: url("../img/bg-3.jpg");
