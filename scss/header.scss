@@ -106,6 +106,22 @@ header{
 			font-size: 3.7vw;
 		}
 	}
+	@media only screen and (max-width : 350px){
+
+		br{
+			display: none;
+		}
+		h1{
+			font-size: 5.6vw;
+		}
+		h2{
+			font-size: 4.9vw;
+			text-align: center;
+		}
+		p{
+			font-size: 3.7vw;
+		}
+	}
 }
 
 
@@ -118,8 +134,8 @@ h2{
 	text-transform: uppercase;
 	text-align: center;
 	@media only screen and (max-width : 450px){
-		font-size:19px;
-		line-height: 20px;
+		font-size:22px;
+		line-height: 23px;
 		br{
 			display: none;
 		}
@@ -216,6 +232,11 @@ h2{
 			width: 9px;
 			height: 9px;
 			border-radius: 120px;
+		}
+	}
+	@media only screen and (max-width : 991px){
+		br{
+			display: none;
 		}
 	}
 
@@ -685,6 +706,12 @@ h2{
 			padding: 21px 10px 20px 10px;
 		}
 	}
+	@media only screen and (max-width : 500px){
+		h3{
+			font-size: 19px;
+			line-height: 22px;
+		}
+	}
 
 }
 
@@ -780,6 +807,22 @@ h2{
 		}
 		.avoid-two .avoid-a{
 			padding: 21px 10px 20px 10px;
+		}
+	}
+	@media only screen and (max-width : 500px){
+		.avoid{
+			p{
+				font-size: 19px;
+			}
+		}
+		.avoid-two{
+			p{
+				font-size: 19px;
+			}
+			h3{
+				font-size: 19px;
+				line-height: 22px;
+			}
 		}
 	}
 }
@@ -1676,6 +1719,9 @@ h2{
 		float: none;
 		width: 100%;
 		text-align: center;
+		h3{
+			padding-left: 0;
+		}
 	}
 }
 .right-bot-nb{

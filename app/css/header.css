@@ -79,6 +79,16 @@ header {
       font-size: 3.9vw; }
     header p {
       font-size: 3.7vw; } }
+  @media only screen and (max-width: 350px) {
+    header br {
+      display: none; }
+    header h1 {
+      font-size: 5.6vw; }
+    header h2 {
+      font-size: 4.9vw;
+      text-align: center; }
+    header p {
+      font-size: 3.7vw; } }
 
 h2 {
   line-height: 25px;
@@ -89,8 +99,8 @@ h2 {
   text-align: center; }
   @media only screen and (max-width: 450px) {
     h2 {
-      font-size: 19px;
-      line-height: 20px; }
+      font-size: 22px;
+      line-height: 23px; }
       h2 br {
         display: none; } }
 
@@ -168,6 +178,9 @@ h2 {
       height: 9px;
       -webkit-border-radius: 120px;
       border-radius: 120px; }
+  @media only screen and (max-width: 991px) {
+    .text-bad-heal br {
+      display: none; } }
 
 .item-bad-heal {
   padding-top: 50px;
@@ -527,6 +540,10 @@ h2 {
     @media only screen and (max-width: 500px) {
       .avoid-two .avoid-a {
         padding: 21px 10px 20px 10px; } }
+  @media only screen and (max-width: 500px) {
+    .avoid-two h3 {
+      font-size: 19px;
+      line-height: 22px; } }
 
 .slider-pol {
   margin-top: 100px; }
@@ -597,6 +614,15 @@ h2 {
       text-align: center; }
     .practic .avoid-two .avoid-a {
       padding: 21px 10px 20px 10px; } }
+
+@media only screen and (max-width: 500px) {
+  .practic .avoid p {
+    font-size: 19px; }
+  .practic .avoid-two p {
+    font-size: 19px; }
+  .practic .avoid-two h3 {
+    font-size: 19px;
+    line-height: 22px; } }
 
 .video-course {
   text-align: center;
@@ -1289,7 +1315,9 @@ h2 {
     .left-bot-nb {
       float: none;
       width: 100%;
-      text-align: center; } }
+      text-align: center; }
+      .left-bot-nb h3 {
+        padding-left: 0; } }
 
 .right-bot-nb {
   float: left;
