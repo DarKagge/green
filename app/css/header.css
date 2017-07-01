@@ -877,6 +877,9 @@ h2 {
       .reviews .items-fotot-s .item-slide {
         max-width: inherit;
         padding: 0 50px; } }
+    @media only screen and (max-width: 720px) {
+      .reviews .items-fotot-s .item-slide {
+        padding: 0 20px; } }
 
 .title-slide-reviews {
   background-color: #ffc500;
@@ -1095,6 +1098,13 @@ h2 {
         margin: 30px 15px; }
       .payment-shipping li:last-child {
         margin: 30px 15px; } }
+  @media only screen and (max-width: 450px) {
+    .payment-shipping li img {
+      float: none; }
+    .payment-shipping li p {
+      float: none;
+      padding-left: 0;
+      text-align: center; } }
 
 .op-as * {
   float: left; }
