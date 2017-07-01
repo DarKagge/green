@@ -207,6 +207,9 @@ h2 {
     text-align: left;
     line-height: 22px;
     padding-top: 5px; }
+  @media only screen and (max-width: 500px) {
+    .avoid-a {
+      padding: 38px 15px 34px 15px; } }
 
 .secret {
   margin-top: 220px; }
@@ -514,6 +517,9 @@ h2 {
     .avoid-two .avoid-a p {
       text-align: center;
       text-transform: uppercase; }
+    @media only screen and (max-width: 500px) {
+      .avoid-two .avoid-a {
+        padding: 21px 10px 20px 10px; } }
 
 .slider-pol {
   margin-top: 100px; }
