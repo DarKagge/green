@@ -578,7 +578,9 @@ h2 {
     .practic p {
       text-align: center; }
     .practic .avoid p {
-      text-align: center; } }
+      text-align: center; }
+    .practic .avoid-two .avoid-a {
+      padding: 21px 10px 20px 10px; } }
 
 .video-course {
   text-align: center;
