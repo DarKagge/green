@@ -28,7 +28,6 @@ button:hover {
   display: none; }
 
 .wrapper {
-  max-width: 1158px;
   margin: 0 auto;
   background-image: url("../img/bg.png"); }
 
@@ -692,7 +691,6 @@ h2 {
       padding-top: 0; }
 
 .wrapper-two {
-  max-width: 1158px;
   margin: 0 auto; }
 
 .for-whom {
