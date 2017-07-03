@@ -134,6 +134,12 @@ h2 {
 .text-misapprehension p {
   padding-top: 34px; }
 
+.text-misapprehension h3 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #42af00;
+  text-align: center; }
+
 .text-misapprehension i {
   padding-top: 34px;
   font-size: 20px;
