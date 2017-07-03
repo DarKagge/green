@@ -865,7 +865,7 @@
 		<div class="need-course">
 			<div class="inner">
 				<div class="button-green">
-					<a href="#">ПОЛУЧИТЬ КУРС</a>
+					<a href="#test-popup" class="open-popup-link">ПОЛУЧИТЬ КУРС</a>
 				</div>
 				<div class="formalize">
 					<h3>Как правильно оформить заказ,чтобы как можно быстрее вернуть<br> здоровье собственным суставам и позвоночнику?</h3>
@@ -909,7 +909,7 @@
 						<li>
 							<div class="right-formalize">
 								<div class="button-green">
-									<a href="#">ПОЛУЧИТЬ КУРС</a>
+									<a href="#test-popup" class="open-popup-link">ПОЛУЧИТЬ КУРС</a>
 								</div>
 								<p>Обязательно проверьте правильность номера телефона,чтобы наш оператор мог     с Вами связаться.</p>
 								<p>Если форма заполнена правильно, то Вас перенаправит на страницу, подтверждающую получение данных. Заполните на ней форму
@@ -1067,7 +1067,7 @@
 					<li>
 						<img src="img/p.s2.jpg" alt="">
 						<div class="button-green">
-							<a href="#">ПОЛУЧИТЬ КУРС</a>
+							<a href="#test-popup" class="open-popup-link">ПОЛУЧИТЬ КУРС</a>
 						</div>
 					</li>
 				</ul>
@@ -1109,6 +1109,34 @@
 			<h3>Ваше сообщение успешно отправлено.</h3>
 		</div>
 		<a id="call_ok" class="modal" href="#modal_callback_ok"></a>
+	</div>
+
+
+
+
+
+
+	<div id="test-popup" class="white-popup mfp-hide">
+		<form class="forms-all">
+			<input type="hidden" name="project_name" value="Green-doc">
+			<input type="hidden" name="admin_email" value="ElectroDeggi33759@yandex.ru">
+			<input type="hidden" name="form_subject" value="Регистрация">
+			<input type="text" placeholder="Страна" required>
+			<input type="text" placeholder="ФИО" required>
+			<input type="text" placeholder="Введите ваш телефон" required>
+			<div class="check clearfix">
+				<input type="checkbox">
+				<p>Я согласен(на) с условиями публичной оферты</p>
+			</div>
+			<div class="button-green">
+				<button type="submit" name="send">ОТПРАВИТЬ</button>
+			</div>
+			<p>
+				Ваша персональная стоимость на сегодня<br>
+				3990 рублей, <span>00000</span> тенге,<br>
+				<span>0000</span> гривен или <span>000</span> бел. рублей
+			</p>
+		</form>
 	</div>
 
 	<!--[if lt IE 9]>
