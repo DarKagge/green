@@ -1570,7 +1570,7 @@ h2{
 
 
 .need-course{
-  padding-bottom: 120px;
+  padding-bottom: 110px;
 }
 
 .formalize{
@@ -1668,10 +1668,17 @@ h2{
   background-size: cover;
   background-position: center;
   padding-bottom: 40px;
+	.title-orange{
+		padding: 19.5px 58px;
+		font-size: 22px;
+	}
   h3{
     font-size: 25px;
     color: #fff;
     line-height: 25px;
+	  text-transform: uppercase;
+	  padding-top: 20px;
+	  letter-spacing: -0.5px;
     font-family:Roboto-Bold;
   }
   li{
@@ -1701,6 +1708,7 @@ h2{
   h4{
     padding-top: 35px;
     color: #fff;
+	  line-height: 26px;
   }
   b{
     font-family:Roboto-Bold;
@@ -1735,11 +1743,12 @@ h2{
 
 
 .op-as{
+	padding-top: 9px;
   *{
     float: left;
   }
   .white-as{
-    width: 72.4%;
+    width: 74.9%;
     background-color: #fff;
     height: 61px;
     text-align: left;
@@ -1757,7 +1766,7 @@ h2{
 	  }
   }
   .orange-as{
-    width: 27.6%;
+    width: 25.1%;
     background-color: #ffc500;
     height: 61px;
     color: #000;
@@ -1776,7 +1785,7 @@ h2{
 
 
 .forma-for{
-  padding: 55px 0;
+  padding: 55px 0 0 0;
   text-align: center;
   h3{
     font-size:23px;
@@ -1790,7 +1799,8 @@ h2{
   }
   .title-slide-reviews{
     text-transform: none;
-    margin: 13px 0;
+    margin: 11px 0;
+	  padding: 16px 27px;
   }
 	@media only screen and (max-width : 900px){
 		br{
@@ -1807,7 +1817,7 @@ h2{
     width: 100%;
     border: 2px solid #46b105;
     border-radius: 13px ;
-    margin-top: 30px;
+    margin-top: 35px;
     color: #000;
     opacity: 1;
     padding: 10px 19px;
@@ -1818,6 +1828,7 @@ h2{
   }
   .button-green{
     top: auto;
+	  margin-top: 9px;
     button{
       padding: 12px 0;
       font-size: 23px;
@@ -1836,7 +1847,7 @@ h2{
 }
 
 .check{
-  margin: 5px 0;
+  margin: 0px 0;
   input{
     width: 10px;
     height: 10px;
@@ -1846,11 +1857,12 @@ h2{
   }
   p{
     display: inline-block;
+	  padding-top: 5px;
   }
 }
 
 .form-fr{
-  margin: 25px 0;
+  margin: 25px 0 0 0;
   h3{
     text-transform: none;
     text-align: center;
@@ -1890,27 +1902,29 @@ h2{
 
 .for-bottom{
   background-image: url("../img/bg-9.jpg");
-  padding-bottom: 35px;
+  padding-bottom: 47px;
+	margin-top: 28px;
   h3{
     text-align: left;
-    padding-left: 15px;
+    padding-top: 18px;
   }
   li{
     font-size: 20px;
+	  margin-bottom: 36px;
   }
 }
 
 
 .call-us{
   position: relative;
-  top:-50px;
+  top:-54px;
 
 }
 
 .call{
   background-color: #fff;
   text-align: center;
-  padding: 65px 0 20px 0;
+  padding: 65px 0 44px 0;
   h3{
     color: #000;
     font-size:23px;
@@ -1925,7 +1939,7 @@ h2{
 
 .nb-bot{
 	max-width: 722px;
-	margin: 35px auto;
+	margin: 40px auto;
 	li{
 		margin-top: 20px;
 	}
@@ -1974,12 +1988,16 @@ h2{
 
 
 .ps{
-	margin-top: 35px;
+	margin-top: 32px;
 	padding-bottom: 40px;
 }
 
 .img-life{
-	margin: 25px 0;
+	margin: 65px 0 0 0 ;
+	ul{
+		max-width: 1158px;
+		margin: 0 auto;
+	}
 	li{
 		float: left;
 		text-align: center;
@@ -2029,8 +2047,9 @@ h2{
 
 footer{
 	background-color: #5eae2d;
-	padding: 45px 0;
+	padding: 41px 0 58px 0;
 	margin-bottom: 70px;
+	margin-top: 16px;
 	color: #fff;
 	div[class*='col-md-4']{
 		&:first-child{
