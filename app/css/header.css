@@ -1418,7 +1418,8 @@ h2 {
     border-radius: none; }
   .check p {
     display: inline-block;
-    padding-top: 5px; }
+    padding-top: 5px;
+    padding-left: 4px; }
 
 .form-fr {
   margin: 25px 0 0 0; }
