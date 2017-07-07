@@ -291,11 +291,11 @@ $(".list-videos > ul > li > a").on("click",function(e){
             }
         ]
     });
-    $(".left-arrow a").on("click",function (e) {
+    $(".left-arrow-r a").on("click",function (e) {
         e.preventDefault();
         otz.goToPrevSlide();
     });
-    $(".right-arrow a").on("click",function (e) {
+    $(".right-arrow-r a").on("click",function (e) {
         e.preventDefault();
         otz.goToNextSlide();
     });

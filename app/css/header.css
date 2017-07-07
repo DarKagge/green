@@ -518,6 +518,28 @@ h2 {
   .right-arrow a {
     background-image: url("../img/arrow-right.png"); }
 
+.left-arrow-r {
+  left: -93px;
+  padding-top: 86px;
+  position: absolute; }
+  @media only screen and (max-width: 1110px) {
+    .left-arrow-r {
+      left: 0;
+      padding-top: 19%; } }
+  .left-arrow-r a {
+    background-image: url("../img/arrow-left.png"); }
+
+.right-arrow-r {
+  padding-top: 86px;
+  right: -93px;
+  position: absolute; }
+  @media only screen and (max-width: 1110px) {
+    .right-arrow-r {
+      right: 0;
+      padding-top: 19%; } }
+  .right-arrow-r a {
+    background-image: url("../img/arrow-right.png"); }
+
 .patent {
   padding-top: 49px;
   text-align: center; }
